@@ -4,7 +4,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Input } from 'cloud-component';
+import { Input } from 'cloud-components';
 
 export default () => <Input value="172.12.1.2.0" onChange={() => {}} />;
 ```

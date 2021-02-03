@@ -4,7 +4,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Test } from 'cloud-component';
+import { Test } from 'cloud-components';
 
 export default () => <Test />;
 ```
