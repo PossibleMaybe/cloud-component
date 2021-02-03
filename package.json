@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "cloud-components",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -28,9 +28,9 @@
     ]
   },
   "dependencies": {
+    "antd": "^4.12.3",
     "lodash": "^4.17.20",
-    "react": "^16.2.0",
-    "antd": "^4.1.3"
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
