@@ -1,4 +1,4 @@
-const antdTheme: Object = {
+const antdTheme = {
   'primary-color': '#0C63FA',
   'link-color': '#0C63FA',
   // 'link-hover-color': '#005ADE',

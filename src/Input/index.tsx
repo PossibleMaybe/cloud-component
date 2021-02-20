@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Input } from 'antd';
 import { get } from 'lodash';
+import ComponentFactory from '../ComponentFactory';
 import styles from './index.less';
 
 interface IProps {
@@ -13,6 +14,7 @@ interface IState {
   value: number[];
 }
 
+@ComponentFactory
 export default class extends PureComponent<IProps, IState> {
   static defaultProps = {
     disable: [false, false, false, false],
